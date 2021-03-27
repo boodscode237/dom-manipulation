@@ -1,13 +1,6 @@
-const param = document.querySelector('div.error');
-const param1 = document.querySelector('#page-title');
-const para = document.querySelectorAll('p');
-const errors = document.querySelectorAll('.error')
+const link = document.querySelector('a')
 
-// we can use foreach on querySelector
-para.forEach(para => {
-    console.log(para)
-})
-console.log(param1)
 
-const para1 = document.getElementById('page-title');
-const para2 = document.getElementsByTagName
+link.setAttribute('href', 'https://www.github.com')
+console.log(link.getAttribute('href'))
+link.innerText = 'Github site'
